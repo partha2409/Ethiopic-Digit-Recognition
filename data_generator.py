@@ -18,9 +18,7 @@ class DataGenerator(Dataset):
 
         select_random_img = np.random.randint(self.train_images.shape[0])
         image = self.train_images[select_random_img, :, :]
-
         image = np.expand_dims(image, 0)
-
         label = self.train_labels[select_random_img]
         return image, label
 
@@ -40,9 +38,7 @@ class ValidationDataGenerator(Dataset):
 
         image = self.val_images[item, :, :]
         image = np.expand_dims(image, 0)
-
         label = self.val_labels[item]
-
         return image, label
 
     def __len__(self):
