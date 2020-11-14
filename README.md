@@ -12,6 +12,7 @@ opencv <br>
 1. Download and extract the data into the project folder. <br>
 2. Run split_train_val.py to create the validation data. <br>
 3. Run train.py to start training the model.
+4. Once the model is trained,in run_inference.py provide the path of the trained model and run it.
 
 
 
