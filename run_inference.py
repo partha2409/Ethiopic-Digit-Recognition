@@ -67,8 +67,8 @@ def run_inference(model_dir=None, model_path=None, test_data_path=None):
 if __name__ == '__main__':
     device = ('cuda:0' if torch.cuda.is_available() else 'cpu')
     print(device)
-    model_dir = "checkpoints/ResNet_20201108_222637/"
-    model_path = "pretrained_model.pth"
+    model_dir = " "    # example: "checkpoints/ResNet_20201108_222637/"
+    model_path = " "   # example: "pretrained_model.pth"
     test_data_path = "tau-ethiopic-digit-recognition/test/"
 
     run_inference(model_dir, model_path, test_data_path)
