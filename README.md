@@ -8,4 +8,10 @@ This was part of a competition. Hence labels are available only for the training
 pytorch <br>
 opencv <br>
 
+<h3> Steps to train the model </h3>
+1. Download and extract the data into the project folder. <br>
+2. Run split_train_val.py to create the validation data. <br>
+3. Run train.py to start training the model.
+
+
 
