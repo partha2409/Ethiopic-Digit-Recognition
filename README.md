@@ -4,7 +4,7 @@ Download the data from https://www.kaggle.com/c/tau-ethiopic-digit-recognition/d
 
 This was part of a competition. Hence labels are available only for the training data. We are supposed to upload the predictied digits to Kaggle as a csv file.
 
-<h3> Requirements: </h3> <br>
+<h3> Requirements: </h3> 
 pytorch <br>
 opencv <br>
 
